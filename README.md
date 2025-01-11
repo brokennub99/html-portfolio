@@ -9,8 +9,8 @@ Click any of the images below to view the README and live demo of each project.
 
 ### 🖥️  [📌 Project 1 - Single-Page CV]
 
-### [📌 Project 2 - Basic HTML Website]
-[![Basic HTML Website](https://roadmap.sh/projects/basic-html-website)]
+### [📌 Project 2 - Basic HTML Website] >> https://roadmap.sh/projects/basic-html-website
+
 
 
 ---
