@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <title>Basic HTML Website</title>
+    <style>
+        body{
+            display: grid;
+            height: 100vh;
+        }
+        h1{
+            display: grid;
+            height: fit-content;
+            justify-self: start;
+            align-self: start;
+            font-family: Caveat;
+            margin-top: 100px;
+            font-size: 4rem;
+            margin-left: 30px;
+        }
+        p{
+            font-family: Roboto;
+            font-size: 1.1rem;
+        }
+        ul{
+            display: flex;
+            flex-grow: 1;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-around;
+        }
+
+        .name{
+            font-family: Libre Baskerville;
+            font-size: 2rem;
+            margin-left: -40px;
+        }
+        .H{
+            margin-left: 50vw;
+        }
+        .navbar{
+            font-family: Libre Baskerville;
+            font-size: 1.5rem;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 450px);
+            grid-template-rows: 300px;
+            justify-content: space-around;
+
+            
+            gap: 30px;
+        }
+        .reviews{
+            background-color: burlywood;
+            border-radius: 20px;
+            margin-top: -80px;
+            font-style: italic;
+            text-align: center;
+            align-self: center;
+        }
+    </style>
+</head>
+<header>
+    <ul>
+        <li class="name">Raeven Ortega</li>
+        <li class="navbar H"><a href="./index.html">Home</a></li>
+        <li class="navbar">/</li>
+        <li class="navbar"><a href="./projects.html">Projects</a></li>
+        <li class="navbar">/</li>
+        <li class="navbar"><a href="./articles.html">Articles</a></li>
+        <li class="navbar">/</li>
+        <li class="navbar"><a href="./contact.html">Contact</a></li>
+    </ul>  
+
+</header>
+<body>
+    <h1>Articles Here...</h1>
+    <div class="container">
+        <div class="reviews">
+            <p>
+                Bro ipsum dolor sit amet punter nose corduroy, skinny euro hero pillow popping. First tracks Whistler face plant acro. Hot dogging table top ski bum face shots trail swag Whistler. Whip reverse camber ripper white room. Pow pow manny white room noodle, shred bonk gnar heli Whistler trail swag skinny nose press. Brain bucket pipe hammer bonk Whistler hellflip spin afterbang grunt. DH trucks ollie death cookies.
+            </p>
+            <p>
+                Jane Doe <br>
+                Assistant Professor
+            </p>
+
+        </div>
+        <div class="reviews">
+            <p>
+                Bro ipsum dolor sit amet punter nose corduroy, skinny euro hero pillow popping. First tracks Whistler face plant acro. Hot dogging table top ski bum face shots trail swag Whistler. Whip reverse camber ripper white room. Pow pow manny white room noodle, shred bonk gnar heli Whistler trail swag skinny nose press. Brain bucket pipe hammer bonk Whistler hellflip spin afterbang grunt. DH trucks ollie death cookies.
+            </p>
+            <p>
+                Jane Doe <br>
+                Assistant Professor
+            </p>
+        </div>
+        <div class="reviews">
+            <p>
+                Bro ipsum dolor sit amet punter nose corduroy, skinny euro hero pillow popping. First tracks Whistler face plant acro. Hot dogging table top ski bum face shots trail swag Whistler. Whip reverse camber ripper white room. Pow pow manny white room noodle, shred bonk gnar heli Whistler trail swag skinny nose press. Brain bucket pipe hammer bonk Whistler hellflip spin afterbang grunt. DH trucks ollie death cookies.
+            </p>
+            <p>
+                Jane Doe <br>
+                Assistant Professor
+            </p>
+        </div>
+    </div>
+</body>
+</html>

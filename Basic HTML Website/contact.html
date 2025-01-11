@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <title>Basic HTML Website</title>
+    <title>Contacts</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-rows: 2;
+            grid-template-columns: 1;
+            height: 100vh;
+        }
+        h1{
+            justify-self: center;
+            align-self: start;
+            font-family: Caveat;
+            font-size: 6rem;
+        }
+        p{
+            justify-self: center;
+            align-self: start;
+            font-family: Libre Baskerville;
+            margin-top: -220px;
+            color: gray;
+        }
+        .nav{
+            display: flex;
+            flex-grow: 1;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-around;
+        }
+
+        .name{
+            font-family: Libre Baskerville;
+            font-size: 2rem;
+            margin-left: -40px;
+        }
+        .H{
+            margin-left: 50vw;
+        }
+        .navbar{
+            font-family: Libre Baskerville;
+            font-size: 1.5rem;
+        }        
+        .proj{
+            justify-self: center;
+            align-self: center;
+            list-style: none;
+            margin-top: -300px;
+        }
+        .projects{
+            text-align: center;
+            font-family: Roboto Mono;
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<header>
+    <ul class="nav">
+        <li class="name">Raeven Ortega</li>
+        <li class="navbar H"><a href="./index.html">Home</a></li>
+        <li class="navbar">/</li>
+        <li class="navbar"><a href="./projects.html">Projects</a></li>
+        <li class="navbar">/</li>
+        <li class="navbar"><a href="./articles.html">Articles</a></li>
+        <li class="navbar">/</li>   
+        <li class="navbar"><a href="./contact.html">Contact</a></li>
+    </ul>  
+</header>
+<body>
+    <h1>Contact Me</h1>
+    <ul class="proj">
+        <li class="projects">📧 raevensumiya18@gmail.com</li>
+        <li class="projects">📱 +63 9158405862</li>
+        <li class="projects"> <img src="./assets/github-mark.png" alt="github logo"> <a href="https://github.com/brokennub99" target="_blank" rel="noopener noreferrer">github.com/brokennub99</a></li>
+        <li class="projects"><img src="./assets/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.webp" alt="LinkedIn Logo"><a href="https://www.linkedin.com/in/raeven-ortega-01b68a208" target="_blank" rel="noopener noreferrer">linkedin.com/in/raeven-ortega-01b68a208</a> </li>
+    </ul>
+</body>
+</html>
