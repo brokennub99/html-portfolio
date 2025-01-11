@@ -7,7 +7,7 @@ My smoll projects as an aspiring web developer.
 
 Click any of the images below to view the README and live demo of each project.
 
-### 🖥️  [📌 Project 1 - Single-Page CV]
+### 🖥️  [📌 Project 1 - Single-Page CV] >> https://roadmap.sh/projects/single-page-cv
 
 ### [📌 Project 2 - Basic HTML Website] >> https://roadmap.sh/projects/basic-html-website
 
